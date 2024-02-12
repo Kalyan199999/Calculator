@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: blueviolet;
+
+  height: 100vh;
+
+}
+
+.conatiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.minus{
+  width: 5vw;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+
+  background-color: red;
+  color: white;
+
+  font-size: 25px;
+
+  margin-top: 25%;
+  cursor: pointer;
+
+}
+
+
+.plus{
+  width: 5vw;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+
+  background-color: blue;
+  color: white;
+
+  font-size: 25px;
+
+  margin-top: 25%;
+  cursor: pointer;
+
+}
+
+.reset{
+  width: 10vw;
+  height: 8vh;
+  border: none;
+  border-radius: 5px;
+
+  background-color: green;
+  color: white;
+
+  
+  cursor: pointer;
+}
+
+.value{
+  font-size: 30px;
+  color: white;
+  margin-top: 25%;
+}
