@@ -7,7 +7,9 @@ function App(){
   return(
     <div className='parent'>
     <div className='conatiner'>
-      <button className="minus" onClick={()=>{updatedCounter(counter-1)}}>-</button>
+      <button className="minus" onClick={()=>{
+        if(counter>0){updatedCounter(counter-1)}
+      }}>-</button>
       <p className="value">{counter}</p>
       <button className="plus" onClick={()=>{updatedCounter(counter+1)}}>+</button>    
     </div>
